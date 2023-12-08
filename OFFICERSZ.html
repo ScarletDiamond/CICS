@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>OFFICERS</title>
+        </head>
+
+       
+        <style>
+            @font-face {
+                font-family: sans;
+                src: url(SFPRODISPLAYREGULAR.OTF);
+            }
+
+            @font-face {
+                font-family: jb;
+                src: url(JetBrainsMono-Regular.ttf);
+            }
+            
+            
+            body{
+            background-image: url(banner\ 1.png);
+            }
+            
+            
+            .Nav_bar{
+            background-color: #022b429c;
+            backdrop-filter: blur(5px);
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;}
+
+    .loop{
+        width: 30px;
+        border-radius: 50px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .lbs{
+        padding: 15px;
+        font-family: jb;
+        font-weight: 900;
+        font-size: 25px;
+        color: #d5deef;
+    }
+
+    .buttons{
+        display: flex;
+        justify-content:left;
+        padding-bottom: 10px;
+    }
+
+.y1, .y2, .y3, .y4, .y5, .y6{
+        background-color: transparent;
+          color: white;
+          width:auto;
+          height:auto;
+          border-style: solid;
+          border-color: white;
+          border-width: 0.1px;
+          border-radius: 10px;
+          font-size: 15px;
+          transition-duration: 0.4s;
+          padding: 5px;
+          font-family: jb;
+          margin-left: 10px;
+          
+}
+
+.y1:hover {
+          background-color: white;
+          color: #19277f;
+        }
+.y2:hover {
+          background-color: white;
+          color: #19277f;
+        }
+.y3:hover {
+          background-color: white;
+          color: #19277f;
+        }
+.y4:hover {
+          background-color: white;
+          color: #19277f;
+        }
+.y5:hover {
+          background-color: white;
+          color: #19277f;
+        }
+
+.y6:hover {
+          background-color: white;
+          color: #19277f;
+        }
+
+.p1{
+    width: 200px;
+    border-radius: 100px;
+    margin-top: 20px;}
+.p2{
+    width: 200px;
+    border-radius: 50px;
+    margin-top: 20px;
+
+}
+            
+            h1{
+                font-family: jb;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: 40px;
+             }
+            
+            h2{
+                font-family: jb;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: 15px;
+            }
+            
+            p{
+                font-family: sans;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: 12px;
+                padding: 20px;
+            }
+            
+            .of{
+                margin-top: 130px;
+            }
+
+            .of1{
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            margin-top: 30px;
+            
+            }
+            
+            .adv{
+                max-height: fit-content;
+                max-width: 2000px;
+                border-color: rgb(20, 127, 222);
+                border-style: none;
+                border-radius: 50px;
+                border-width: 3px;
+                padding: 2rem 2rem;
+                text-align: center;
+                padding-top: 10px;
+            }
+
+            .adv1{
+            display: inline-block;
+            margin:auto;
+            max-height: fit-content;
+            width: fit-content;
+            border-style: solid;
+            border-color: rgb(255, 255, 255);
+            background-color: rgba(255, 255, 255, 0.248);
+            border-radius: 20px;
+            border-width: 1px;
+            vertical-align: middle;
+            padding-left: 30px;
+            padding-right: 30px;
+            }
+
+            .officer1{
+            margin-top: 30px;
+            max-height: fit-content;
+            max-width: 2000px;
+            border-color: rgb(20, 127, 222);
+            border-style: none;
+            border-radius: 50px;
+            border-width: 3px;
+            margin: 1rem;
+            padding: 2rem 2rem;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            }
+            
+            .a2{
+            display: inline-block;
+            margin:auto;
+            max-height: fit-content;
+            width: fit-content;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-style: solid;
+                border-color: rgb(255, 255, 255);
+            background-color: rgba(255, 255, 255, 0.248);
+            border-radius: 20px;
+            border-width: 1px;
+            vertical-align: middle;
+            
+            }
+            
+            .a3{
+            display: inline-block;
+            margin:auto;
+            max-height: fit-content;
+            width: fit-content;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-style: solid;
+                border-color: rgb(255, 255, 255);
+            background-color: rgba(255, 255, 255, 0.248);
+            border-radius: 20px;
+            border-width: 1px;
+            vertical-align: middle;
+            }
+            
+            .a4{
+            display: inline-block;
+            margin:auto;
+            max-height: fit-content;
+            width: fit-content;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-style: solid;
+                border-color: rgb(255, 255, 255);
+            background-color: rgba(255, 255, 255, 0.248);
+            border-radius: 20px;
+            border-width: 1px;
+            vertical-align: middle;
+            }
+            
+            .officer2{
+            margin-top: 30px;
+            max-height: fit-content;
+            max-width: 2000px;
+            border-color: rgb(29, 126, 224);
+            border-style: none;
+            border-radius: 50px;
+            border-width: 3px;
+            margin: 1rem;
+            padding: 2rem 2rem;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            }
+            
+            .o1{
+                display: inline-block;
+            margin:auto;
+            max-height: fit-content;
+            width: fit-content;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-style: solid;
+                border-color: rgb(255, 255, 255);
+            background-color: rgba(255, 255, 255, 0.248);
+            border-radius: 20px;
+            border-width: 1px;
+            vertical-align: middle;
+            
+            }
+            
+            .o2{
+            display: inline-block;
+            margin:auto;
+            max-height: fit-content;
+            width: fit-content;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-style: solid;
+                border-color: rgb(255, 255, 255);
+            background-color: rgba(255, 255, 255, 0.248);
+            border-radius: 20px;
+            border-width: 1px;
+            vertical-align: middle;
+            }
+            
+            .o3{
+            display: inline-block;
+            margin:auto;
+            max-height: fit-content;
+            width: fit-content;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-style: solid;
+                border-color: rgb(255, 255, 255);
+            background-color: rgba(255, 255, 255, 0.248);
+            border-radius: 20px;
+            border-width: 1px;
+            vertical-align: middle;
+            }
+            
+            .o4{
+            display: inline-block;
+            margin:auto;
+            max-height: fit-content;
+            width: fit-content;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-style: solid;
+            border-color: rgb(255, 255, 255);
+            background-color: rgba(255, 255, 255, 0.248);
+            border-radius: 20px;
+            border-width: 1px;
+            vertical-align: middle;
+            }
+
+
+            .end{
+    text-align: center;
+    align-items: end;
+    font-family: SF;
+    font-weight:normal;
+    color: aliceblue;
+    font-size: smaller;
+    bottom: 5px;
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    font-size: 12px;
+    }
+            
+</style>
+
+    <body>
+        <div class="Nav_bar">
+            <div class="lbs">
+            <img src="cics-removebg-preview.png" class="loop">
+            <span>College of Informatics and Computing Sciences</span>
+            </div>
+            
+            <div class="buttons">
+                <a href="Cover page.html"><button class="y1">COVER PAGE</button></a>
+                <a href="landing.html"><button class="y2">HOME</button></a>
+                <a href="OFFICERSZ.html"><button class="y3">OFFICERS AND ADVISER</button></a>
+                <a href="Faculty.html"><button class="y4">FACULTY</button></a>
+                <a href="Facilities.html"><button class="y5">FACILITIES</button></a>
+                <a href="Students' profile.html"><button class="y6">STUDENTS</button></a>
+            </div>
+        </div>
+
+    <div class="of">
+        <h1>CICS Adviser and Officer</h1>
+
+        <div class="adv">
+            <div class="adv1">
+            <img class="of1", src="a.jpg">
+                <h2>MENDEZ, CELINE.</h2>
+                <p>CICS ADVISER </p>
+        </div>
+    </div>
+
+
+        <div class="officer1">
+        
+            <div class="a2">
+                <img src="b.jpg" class="p1">
+                <h2>MANIMTIM, SHANEL</h2>
+                <p>PRESIDENT </p>
+            </div>
+        
+            <div class="a3">
+                <img src="c.jpg" class="p1">
+                <h2>DE ASIS, DANIEL</h2>
+                <p>VICE PRESIDENT</p>
+            </div>
+        
+            <div class="a4">
+                <img src="d.jpg" class="p1">
+                <h2>VILLALOBOS, CARLA</h2>
+                <p>SECRETARY </p>
+            </div>
+        </div>
+        
+            <div class="officer2">
+                <div class="o1">
+                    <img src="e.jpg" class="p1">
+                    <h2>BELARMINO, JEFFREIL</h2>
+                    <p>TREASURER </p>
+                </div>
+            
+                <div class="o2" >
+                    <img src="f.jpg" class="p1">
+                    <h2>CREUS, JOHN PAOLO</h2>
+                    <p>AUDITOR</p>
+                </div>
+            
+                <div class="o3">
+                    <img src="g.jpg" class="p1">
+                    <h2>CALINGASAN, MA. LUZ</h2>
+                    <p>BUSINESS MANAGER </p>
+                </div>
+            
+                <div class="o4">
+                    <img src="h.jpg" class="p1">
+                    <h2>BANSON, CHRISTOPHER</h2>
+                    <p>P.R.O</p>
+                </div>
+            </div>
+        
+        </div>
+
+        <div class="end">
+            <p>
+                CICS<br>
+                College of Informatics ang Computing Sciences<br>
+                Batangas State University<br>
+                2023<br>
+            </p>
+        
+            <a href="https://www.facebook.com/profile.php?id=100084500627672">
+                <img src="icons8-facebook-48.png" class="fb">
+            </a>
+
+        </body>   
+    </head>
+</html>
